@@ -7,7 +7,7 @@
     "mark": {"type": "geoshape"},
     "data": {
         "url": "js/ne_110m_admin_0_countries.topojson",
-        "format": {"type": "topojson", "feature": "ne_110m_admin_0_contries"}
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
     },
     "transform": [{
         "lookup": "properties.name",
@@ -18,7 +18,8 @@
             "key": "total_production",
             "fields": ["2018"]
         }
-    }],
+    }
+],
     "encoding": {
         "color": {
             "field": "2018",
