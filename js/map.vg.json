@@ -3,14 +3,15 @@
     "title": "Coffee Around The World (2018)",
     "width": 800,
     "height": 600,
-    "projection": {"type": "equirectangular"},
     "mark": {"type": "geoshape"},
     "data": {
         "url": "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/js/ne_110m_admin_0_countries.topojson",
-        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+        "format": {
+            "type": "topojson", 
+            "feature": "ne_110m_admin_0_countries"}
     },
     "transform": [{
-        "lookup": "properties.name",
+        "lookup": "properties.NAME",
         "from": {
             "data": {
                 "url": "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/coffee/total-production.csv"
@@ -18,12 +19,16 @@
             "key": "total_production",
             "fields": ["2018"]
         }
-    }
-],
+        }],
+    "projection": {"type": "equirectangular"},
     "encoding": {
-        "color": {
-            "field": "2018",
-            "type": "quantitative"
+    "color": {
+        "field": "2018",
+        "type": "quantitative"
         }
-    }
+    },
+    "tooltip": [
+      {"field": "properties.NAME", "type": "nomial", "title": "Country"},
+      {"field": "total_production", "type": "quantitative", "title": "Total Production in 2018"}
+    ]
 }
