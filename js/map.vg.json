@@ -28,7 +28,6 @@
         }
     },
     "tooltip": [
-      {"field": "properties.NAME", "type": "nomial", "title": "Country"},
-      {"field": "total_production", "type": "quantitative", "title": "Total Production in 2018"}
+      {"field": "properties.NAME", "type": "nominal", "title": "Country"}
     ]
 }

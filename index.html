@@ -17,7 +17,42 @@
 
 <script type="text/javascript">
 
-  var spec2 = "js/map.vg.json";
+//   var spec2 = "js/map.vg.json";
+  
+  var spec2 = 
+  {
+    "#schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Coffee Around The World (2018)",
+    "width": 800,
+    "height": 600,
+    "mark": {"type": "geoshape"},
+    "data": {
+        "url": "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/js/ne_110m_admin_0_countries.topojson",
+        "format": {
+            "type": "topojson", 
+            "feature": "ne_110m_admin_0_countries"}
+    },
+    "transform": [{
+        "lookup": "properties.NAME",
+        "from": {
+            "data": {
+                "url": "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/coffee/total-production.csv"
+            },
+            "key": "total_production",
+            "fields": ["2018"]
+        }
+        }],
+    "projection": {"type": "equirectangular"},
+    "encoding": {
+    "color": {
+        "field": "2018",
+        "type": "quantitative"
+        }
+    },
+    "tooltip": [
+      {"field": "properties.NAME", "type": "nominal", "title": "Country"}
+    ]
+}
   vegaEmbed('#choropleth_map', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
