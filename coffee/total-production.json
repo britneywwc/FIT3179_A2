@@ -1,6 +1,7 @@
 [
   {
     "total_production": "Angola",
+    "continent": "Africa",
     "year_1990": 50.345,
     "year_1991": 79.331,
     "year_1992": 77.52,
@@ -32,7 +33,8 @@
     "year_2018": 40.3874
   },
   {
-    "total_production": "Bolivia (Plurinational State of)",
+    "total_production": "Bolivia",
+    "continent": "South America",
     "year_1990": 122.777,
     "year_1991": 103.536,
     "year_1992": 120.235,
@@ -65,6 +67,7 @@
   },
   {
     "total_production": "Brazil",
+    "continent": "South America",
     "year_1990": 27285.6286,
     "year_1991": 27293.4934,
     "year_1992": 34603.3542,
@@ -97,6 +100,7 @@
   },
   {
     "total_production": "Burundi",
+    "continent": "Africa",
     "year_1990": 487.393,
     "year_1991": 667.199,
     "year_1992": 620.238,
@@ -129,6 +133,7 @@
   },
   {
     "total_production": "Ecuador",
+    "continent": "South America",
     "year_1990": 1503.815,
     "year_1991": 2123.824,
     "year_1992": 1185.48,
@@ -161,6 +166,7 @@
   },
   {
     "total_production": "Indonesia",
+    "continent": "Asia",
     "year_1990": 7441.383,
     "year_1991": 8493.196,
     "year_1992": 5569.478,
@@ -193,6 +199,7 @@
   },
   {
     "total_production": "Madagascar",
+    "continent": "Africa",
     "year_1990": 982.447,
     "year_1991": 932.513,
     "year_1992": 1121.684,
@@ -225,6 +232,7 @@
   },
   {
     "total_production": "Malawi",
+    "continent": "Africa",
     "year_1990": 104.628,
     "year_1991": 124.286,
     "year_1992": 137.161,
@@ -257,6 +265,7 @@
   },
   {
     "total_production": "Papua New Guinea",
+    "continent": "Oceania",
     "year_1990": 962.841,
     "year_1991": 746.816,
     "year_1992": 900.111,
@@ -289,6 +298,7 @@
   },
   {
     "total_production": "Paraguay",
+    "continent": "South America",
     "year_1990": 130.627,
     "year_1991": 79.653,
     "year_1992": 54.291,
@@ -321,6 +331,7 @@
   },
   {
     "total_production": "Peru",
+    "continent": "South America",
     "year_1990": 936.632,
     "year_1991": 1200.474,
     "year_1992": 1761.953,
@@ -353,6 +364,7 @@
   },
   {
     "total_production": "Rwanda",
+    "continent": "Africa",
     "year_1990": 534.875,
     "year_1991": 483.83,
     "year_1992": 638.875,
@@ -385,6 +397,7 @@
   },
   {
     "total_production": "Timor-Leste",
+    "continent": "Asia",
     "year_1990": 0,
     "year_1991": 0,
     "year_1992": 0,
@@ -417,6 +430,7 @@
   },
   {
     "total_production": "Zimbabwe",
+    "continent": "Africa",
     "year_1990": 251.901,
     "year_1991": 201.394,
     "year_1992": 77.824,
@@ -448,7 +462,8 @@
     "year_2018": 8.8388
   },
   {
-    "total_production": "Congo",
+    "total_production": "Republic of the Congo",
+    "continent": "Africa",
     "year_1990": 2.924,
     "year_1991": 3.003,
     "year_1992": 3.171,
@@ -481,6 +496,7 @@
   },
   {
     "total_production": "Cuba",
+    "continent": "North America",
     "year_1990": 414.212,
     "year_1991": 302.097,
     "year_1992": 284.237,
@@ -513,6 +529,7 @@
   },
   {
     "total_production": "Dominican Republic",
+    "continent": "North America",
     "year_1990": 880.062,
     "year_1991": 320.56,
     "year_1992": 637.815,
@@ -545,6 +562,7 @@
   },
   {
     "total_production": "Haiti",
+    "continent": "North America",
     "year_1990": 392.88,
     "year_1991": 463.352,
     "year_1992": 499.855,
@@ -577,6 +595,7 @@
   },
   {
     "total_production": "Philippines",
+    "continent": "Asia",
     "year_1990": 973.632,
     "year_1991": 1018.482,
     "year_1992": 919.851,
@@ -609,6 +628,7 @@
   },
   {
     "total_production": "Tanzania",
+    "continent": "Africa",
     "year_1990": 931.779,
     "year_1991": 789.977,
     "year_1992": 786.434,
@@ -641,6 +661,7 @@
   },
   {
     "total_production": "Zambia",
+    "continent": "Africa",
     "year_1990": 22.686,
     "year_1991": 29.138,
     "year_1992": 29.307,
@@ -673,6 +694,7 @@
   },
   {
     "total_production": "Benin",
+    "continent": "Africa",
     "year_1990": 0,
     "year_1991": 0,
     "year_1992": 1.805,
@@ -705,6 +727,7 @@
   },
   {
     "total_production": "Cameroon",
+    "continent": "Africa",
     "year_1990": 1682.484,
     "year_1991": 1725.948,
     "year_1992": 260.376,
@@ -737,6 +760,7 @@
   },
   {
     "total_production": "Central African Republic",
+    "continent": "Africa",
     "year_1990": 175.274,
     "year_1991": 124.781,
     "year_1992": 133.845,
@@ -769,6 +793,7 @@
   },
   {
     "total_production": "Colombia",
+    "continent": "South America",
     "year_1990": 14396,
     "year_1991": 17980.397,
     "year_1992": 14946.878,
@@ -801,6 +826,7 @@
   },
   {
     "total_production": "Costa Rica",
+    "continent": "North America",
     "year_1990": 2561.885,
     "year_1991": 2759.619,
     "year_1992": 2997.974,
@@ -832,7 +858,8 @@
     "year_2018": 1426.6568
   },
   {
-    "total_production": "Côte d'Ivoire",
+    "total_production": "Ivory Coast",
+    "continent": "Africa",
     "year_1990": 2940.363,
     "year_1991": 4129.295,
     "year_1992": 2245.536,
@@ -865,6 +892,7 @@
   },
   {
     "total_production": "Democratic Republic of Congo",
+    "continent": "Africa",
     "year_1990": 1580.296,
     "year_1991": 1229.902,
     "year_1992": 1180.157,
@@ -897,6 +925,7 @@
   },
   {
     "total_production": "El Salvador",
+    "continent": "North America",
     "year_1990": 2464.864,
     "year_1991": 2197.692,
     "year_1992": 3001.301,
@@ -929,6 +958,7 @@
   },
   {
     "total_production": "Equatorial Guinea",
+    "continent": "Africa",
     "year_1990": 3.536,
     "year_1991": 2.551,
     "year_1992": 1.686,
@@ -961,6 +991,7 @@
   },
   {
     "total_production": "Ethiopia",
+    "continent": "Africa",
     "year_1990": 2909.451,
     "year_1991": 2924.664,
     "year_1992": 1825.171,
@@ -993,6 +1024,7 @@
   },
   {
     "total_production": "Gabon",
+    "continent": "Africa",
     "year_1990": 3.408,
     "year_1991": 1.752,
     "year_1992": 3.063,
@@ -1025,6 +1057,7 @@
   },
   {
     "total_production": "Ghana",
+    "continent": "Africa",
     "year_1990": 37.855,
     "year_1991": 76.306,
     "year_1992": 36.602,
@@ -1057,6 +1090,7 @@
   },
   {
     "total_production": "Guatemala",
+    "continent": "North America",
     "year_1990": 3270.529,
     "year_1991": 3496.531,
     "year_1992": 4318.483,
@@ -1089,6 +1123,7 @@
   },
   {
     "total_production": "Guinea",
+    "continent": "Africa",
     "year_1990": 44.46,
     "year_1991": 90.522,
     "year_1992": 76.341,
@@ -1121,6 +1156,7 @@
   },
   {
     "total_production": "Guyana",
+    "continent": "South America",
     "year_1990": 0,
     "year_1991": 0,
     "year_1992": 0,
@@ -1153,6 +1189,7 @@
   },
   {
     "total_production": "Honduras",
+    "continent": "North America",
     "year_1990": 1567.958,
     "year_1991": 2321.808,
     "year_1992": 1918.209,
@@ -1185,6 +1222,7 @@
   },
   {
     "total_production": "India",
+    "continent": "Asia",
     "year_1990": 2828.687,
     "year_1991": 2999.749,
     "year_1992": 2823.497,
@@ -1217,6 +1255,7 @@
   },
   {
     "total_production": "Jamaica",
+    "continent": "North America",
     "year_1990": 22.574,
     "year_1991": 38.987,
     "year_1992": 25.583,
@@ -1249,6 +1288,7 @@
   },
   {
     "total_production": "Kenya",
+    "continent": "Africa",
     "year_1990": 1485.135,
     "year_1991": 1514.047,
     "year_1992": 1315.548,
@@ -1280,7 +1320,8 @@
     "year_2018": 930.4196
   },
   {
-    "total_production": "Lao People's Democratic Republic",
+    "total_production": "Laos",
+    "continent": "Asia",
     "year_1990": 0,
     "year_1991": 0,
     "year_1992": 0,
@@ -1313,6 +1354,7 @@
   },
   {
     "total_production": "Liberia",
+    "continent": "Africa",
     "year_1990": 3,
     "year_1991": 3,
     "year_1992": 3,
@@ -1345,6 +1387,7 @@
   },
   {
     "total_production": "Mexico",
+    "continent": "North America",
     "year_1990": 4674.245,
     "year_1991": 4727.206,
     "year_1992": 3400.811,
@@ -1377,6 +1420,7 @@
   },
   {
     "total_production": "Nepal",
+    "continent": "Asia",
     "year_1990": 0,
     "year_1991": 0,
     "year_1992": 0,
@@ -1409,6 +1453,7 @@
   },
   {
     "total_production": "Nicaragua",
+    "continent": "North America",
     "year_1990": 461.078,
     "year_1991": 707.067,
     "year_1992": 547.294,
@@ -1441,6 +1486,7 @@
   },
   {
     "total_production": "Nigeria",
+    "continent": "Africa",
     "year_1990": 29.19,
     "year_1991": 44.313,
     "year_1992": 48.882,
@@ -1473,6 +1519,7 @@
   },
   {
     "total_production": "Panama",
+    "continent": "North America",
     "year_1990": 214.987,
     "year_1991": 192.532,
     "year_1992": 196.978,
@@ -1505,6 +1552,7 @@
   },
   {
     "total_production": "Sierra Leone",
+    "continent": "Africa",
     "year_1990": 42.783,
     "year_1991": 54.379,
     "year_1992": 39.084,
@@ -1537,6 +1585,7 @@
   },
   {
     "total_production": "Sri Lanka",
+    "continent": "Asia",
     "year_1990": 95.87,
     "year_1991": 81.549,
     "year_1992": 53.181,
@@ -1569,6 +1618,7 @@
   },
   {
     "total_production": "Thailand",
+    "continent": "Asia",
     "year_1990": 757.017,
     "year_1991": 1468.936,
     "year_1992": 1254.945,
@@ -1601,6 +1651,7 @@
   },
   {
     "total_production": "Togo",
+    "continent": "Africa",
     "year_1990": 161.308,
     "year_1991": 432.652,
     "year_1992": 85.648,
@@ -1632,7 +1683,8 @@
     "year_2018": 74.3319
   },
   {
-    "total_production": "Trinidad & Tobago",
+    "total_production": "Trinidad and Tobago",
+    "continent": "North America",
     "year_1990": 14.581,
     "year_1991": 17.792,
     "year_1992": 14.328,
@@ -1665,6 +1717,7 @@
   },
   {
     "total_production": "Uganda",
+    "continent": "Africa",
     "year_1990": 1955.009,
     "year_1991": 2088.001,
     "year_1992": 2185.074,
@@ -1697,6 +1750,7 @@
   },
   {
     "total_production": "Venezuela",
+    "continent": "South America",
     "year_1990": 1122.477,
     "year_1991": 940.704,
     "year_1992": 1215.298,
@@ -1728,7 +1782,8 @@
     "year_2018": 525.2602
   },
   {
-    "total_production": "Viet Nam",
+    "total_production": "Vietnam",
+    "continent": "Asia",
     "year_1990": 1310.288,
     "year_1991": 1437.848,
     "year_1992": 2340.447,
@@ -1761,6 +1816,7 @@
   },
   {
     "total_production": "Yemen",
+    "continent": "Asia",
     "year_1990": 0,
     "year_1991": 0,
     "year_1992": 0,
