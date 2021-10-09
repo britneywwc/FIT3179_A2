@@ -4,7 +4,7 @@
   "height": 500,
   "projection": {
     "type": "equalEarth",
-    "scale": 200
+    "scale": {"expr": "zoom_level"}
   },
   "params": [
     {
