@@ -1,35 +1,35 @@
-disappearance,year_2013
-Austria,1249
-Belgium,1245
-Bulgaria,419
-Croatia,387
-Cyprus,89
-Czech Republic,637
-Denmark,822
-Estonia,120
-Finland,1095
-France,5707
-Germany,9378
-Greece,1101
-Hungary,177
-Ireland,196
-Italy,5634
-Latvia,95
-Lithuania,197
-Luxembourg,241
-Malta,22
-Netherlands,1625
-Poland,1669
-Portugal,840
-Romania,891
-Slovakia,328
-Slovenia,184
-Spain,3234
-Sweden,1175
-United Kingdom,2828
-Japan,7435
-Norway,763
-Russian Federation,3648
-Switzerland,1123
-Tunisia,429
-USA,23417
+country,population,year_2013
+Austria,8841000,1249
+Belgium,11430000,1245
+Bulgaria,7025000,419
+Croatia,4088000,387
+Cyprus,1189000,89
+Czech Republic,10630000,637
+Denmark,5794000,822
+Estonia,1322000,120
+Finland,5516000,1095
+France,67100000,5707
+Germany,82910000,9378
+Greece,10730000,1101
+Hungary,9776000,177
+Ireland,4867000,196
+Italy,60420000,5634
+Latvia,1927000,95
+Lithuania,2802000,197
+Luxembourg,607950,241
+Malta,484630,22
+Netherlands,17230000,1625
+Poland,37970000,1669
+Portugal,10280000,840
+Romania,19470000,891
+Slovakia,5447000,328
+Slovenia,2074000,184
+Spain,46800000,3234
+Sweden,10180000,1175
+United Kingdom,66460000,2828
+Japan,126500000,7435
+Norway,5312000,763
+Russia,114500000,3648
+Switzerland,8514000,1123
+Tunisia,11570000,429
+United States,326800000,23417
