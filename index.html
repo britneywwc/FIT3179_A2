@@ -16,6 +16,7 @@
   <div id="interactive_map"></div>
   <div id="donut_chart"></div>
   <div id="line_chart"></div>
+  <div id="strip_plot"></div>
 
   <script type="text/javascript">
 
@@ -29,6 +30,10 @@
 
     var spec4 = "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/js/3_trend_coffee_comparison.json";
     vegaEmbed('#line_chart', spec4).then(function(result){
+    }).catch(console.error);
+
+    var spec5 = "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/js/3_trend_coffee_comparison.vg.json";
+    vegaEmbed('#strip_plot', spec5).then(function(result){
     }).catch(console.error);
 
   </script>

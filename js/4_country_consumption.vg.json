@@ -1,0 +1,32 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Strip plot with custom axis tick labels",
+    "title": "Coffee Consumption in Selected Importing Countries",
+    "data": {
+      "url": "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/coffee/consumption.csv"
+    },
+    "width": 500,
+    "mark": {"size": 20, "type": "text"},  
+    "transform": [
+      {"calculate": "'☕️'", "as": "emoji"}
+    ],
+    "encoding": {
+      "x": {
+        "aggregate": "sum",
+        "axis": {
+          "labelFlush": false,
+          "labelExpr": "datum.value == 0 ? 'Low' : datum.value == 5000 ? 'Moderate' : 'High'",
+          "values": [0, 5000, 10000]
+        },
+        "field": "year_2013",
+        "scale": {"domain": [0, 10000]},
+        "title": null
+      },
+      "y": {"field": "disappearance", "sort": "x", "title": "Country"},
+      "text": {"field": "emoji", "type": "nominal"},
+      "tooltip": [
+        {"field": "disappearance", "type": "ordinal", "title": "Country"},
+        {"field": "year_2013", "type": "quantitative", "title": "Consumption (thousand 60kg bags)"}
+      ]
+    }
+  }
