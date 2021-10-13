@@ -1,0 +1,26 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Trend of ICO Composite Indicator (1990-2018)",
+  "title": "Retail Prices of Brazilian and Robusta Coffee (1990-2018)",
+  "data": {
+    "url": "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/coffee/indicator-prices-cleaned.csv"
+  },
+  "transform": [
+    {"fold": [
+      "Brazilian Naturals", "Robustas"
+    ]}
+  ],
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "months", "type": "temporal", "title": "Year"},
+    "y": {"field": "value", "type": "quantitative", "title": "Price per kg"},
+    "color": {
+      "field": "key", 
+      "type": "nominal", 
+      "title": "Coffee Type", 
+      "scale": {
+        "range": ["green", "purple"]
+        }
+      }
+  }
+}
