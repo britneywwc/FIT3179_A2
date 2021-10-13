@@ -17,6 +17,7 @@
   <div id="donut_chart"></div>
   <div id="line_chart"></div>
   <div id="isotype_dot_plot"></div>
+  <div id="wilkinson_plot"></div>
 
   <script type="text/javascript">
 
@@ -34,6 +35,10 @@
 
     var spec5 = "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/js/4_country_consumption.vg.json";
     vegaEmbed('#isotype_dot_plot', spec5).then(function(result){
+    }).catch(console.error);
+
+    var spec6 = "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/js/5_wilkinson_farmers_pay.vg.json";
+    vegaEmbed('#wilkinson_plot', spec6).then(function(result){
     }).catch(console.error);
 
 
