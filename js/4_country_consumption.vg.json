@@ -1,32 +1,37 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Strip plot with custom axis tick labels",
-    "title": "Coffee Consumption in Selected Importing Countries",
-    "data": {
-      "url": "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/coffee/consumption.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "An isotype dot strip plot with custom axis tick labels",
+  "title": {
+    "text": "Coffee Consumption in Selected Importing Countries (2013)",
+    "subtitle": "Light = 0, Moderate = 5, Heavy = 10, Severe = 40"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/coffee/consumption.csv"
+  },
+  "width": 500,
+  "mark": {
+    "size": 25, 
+    "type": "text"
+  },      
+  "transform": [
+    {"calculate": "'☕️'", "as": "emoji"}
+  ],
+  "encoding": {
+    "x": {
+      "aggregate": "sum",
+      "field": "consumption",
+      "title": null,
+      "scale": {"domain": [0, 40]},
+      "axis": {
+        "labelExpr": "datum.value == 0 ? 'Light' : datum.value == 5? 'Moderate' : datum.value == 10 ? 'Heavy' : 'Severe'",
+        "values": [0, 5, 10, 40]
+      }
     },
-    "width": 500,
-    "mark": {"size": 20, "type": "text"},  
-    "transform": [
-      {"calculate": "'☕️'", "as": "emoji"}
-    ],
-    "encoding": {
-      "x": {
-        "aggregate": "sum",
-        "axis": {
-          "labelFlush": false,
-          "labelExpr": "datum.value == 0 ? 'Low' : datum.value == 5000 ? 'Moderate' : 'High'",
-          "values": [0, 5000, 10000]
-        },
-        "field": "year_2013",
-        "scale": {"domain": [0, 10000]},
-        "title": null
-      },
-      "y": {"field": "disappearance", "sort": "x", "title": "Country"},
-      "text": {"field": "emoji", "type": "nominal"},
-      "tooltip": [
-        {"field": "disappearance", "type": "ordinal", "title": "Country"},
-        {"field": "year_2013", "type": "quantitative", "title": "Consumption (thousand 60kg bags)"}
-      ]
-    }
+    "y": {"field": "country", "sort": "x", "title": "Country"},
+    "text": {"field": "emoji", "type": "nominal"},
+    "tooltip": [
+      {"field": "country", "type": "ordinal", "title": "Country"},
+      {"field": "consumption", "type": "quantitative", "title": "60,000kg of Coffee per 10,000 population"}
+    ]
   }
+}
