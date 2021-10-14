@@ -20,7 +20,7 @@
 
 
 .header {
-	padding: 15px;
+	padding: 1px;
 	text-align: center;
 	background: rgb(88, 35, 35);
 	color: white;
@@ -30,7 +30,6 @@
 .section {
 	background-color: bisque;
 	margin: auto;
-	padding: 1px;
 }
 
 
@@ -127,7 +126,6 @@ h2{
 	width: 50%;
   }
   
-/* Clear floats after the columns */
 .row:after {
 	content: "";
 	display: table;
