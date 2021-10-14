@@ -6,3 +6,63 @@
 	/*height: 1000px;
 	width: 800px;*/
 }
+
+#donut_chart {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+*{
+	font-family: 'Helvetica', 'sans-serif';
+}
+
+h1 {
+	/* background-color: chocolate; */
+	text-align: center;
+	font-size: 5em;
+}
+
+.page {
+	background-color: bisque;
+	margin: auto;
+}
+
+.title {
+	font-size: larger;
+	padding: 5px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 48em;
+	background-color: wheat;
+}
+
+.map {
+	text-align: center;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2{
+	text-align: center;
+	font-size: xx-large;
+	font-style: italic;
+	padding: 5px;
+	background-color: burlywood;
+}
+
+.donut-left{
+	width: 60%;
+	float: left;
+}
+
+.donut-title {
+	font-size: larger;
+	padding: 5px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: wheat;
+	width: 500px;
+}
