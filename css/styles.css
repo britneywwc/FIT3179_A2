@@ -116,3 +116,31 @@ h2{
 	display: flex;
 	justify-content: space-between;
 }
+
+.column {
+	float: left;
+	width: 50%;
+  }
+  
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.iso-title {
+	font-size: larger;
+	padding: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: wheat;
+	width: 600px;
+}
+
+.copyright {
+	margin-top: 60px;
+	margin-left: 40px;
+	text-align: auto;
+}
