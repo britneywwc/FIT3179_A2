@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A Wilkinson Dot Plot",
     "title": {
-      "text": "Prices Paid to Coffee Farmers",
+      "text": "Prices Paid to Coffee Farmers (2013)",
       "subtitle": "Each dot represents $1.5 for every 1kg of coffee bean being sold"
     },
     "width": 800,

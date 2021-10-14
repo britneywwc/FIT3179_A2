@@ -3,11 +3,13 @@
 	bottom: 100px; 
 	left: 100px;
 	right: 100px;
-	/*height: 1000px;
-	width: 800px;*/
 }
 
-#donut_chart {
+#line_chart {
+	margin-left: auto;
+}
+
+#donut_chart, #isotype_dot_plot, #wilkinson_plot {
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -17,24 +19,34 @@
 }
 
 h1 {
-	/* background-color: chocolate; */
 	text-align: center;
 	font-size: 5em;
 }
 
-.page {
+.section {
 	background-color: bisque;
 	margin: auto;
 }
 
-.title {
+
+.desc {
 	font-size: larger;
-	padding: 5px;
+	padding: 30px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	width: 48em;
 	background-color: wheat;
+}
+
+.title {
+	font-size: 4ex;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40em;
+	font-weight: bolder;
 }
 
 .map {
@@ -43,6 +55,14 @@ h1 {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.trend {
+	text-align: center;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 h2{
 	text-align: center;
@@ -59,10 +79,40 @@ h2{
 
 .donut-title {
 	font-size: larger;
-	padding: 5px;
+	padding: 10px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: wheat;
 	width: 500px;
+}
+
+.trend{
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-middle{
+	align-self: center;
+	padding: 50px;
+}
+
+.page-middl2{
+	align-self: center;
+	padding: 5px;
+}
+
+
+.img-middle {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40em;
+	font-weight: bolder;
+}
+
+.img-container {
+	display: flex;
+	justify-content: space-between;
 }
