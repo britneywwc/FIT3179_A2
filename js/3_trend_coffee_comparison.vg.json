@@ -15,7 +15,7 @@
   "mark": "line",
   "encoding": {
     "x": {"field": "months", "type": "temporal", "title": "Year"},
-    "y": {"field": "value", "type": "quantitative", "title": "Price per kg"},
+    "y": {"field": "value", "type": "quantitative", "title": "Price per kg ($)"},
     "color": {
       "field": "key", 
       "type": "nominal", 
@@ -23,6 +23,10 @@
       "scale": {
         "range": ["green", "purple"]
         }
-      }
+      },
+      "tooltip": [
+        {"field": "months", "type": "temporal", "title": "Date"},
+        {"field": "value", "type": "quantitative", "title": "Price per kg ($)"}
+      ]
   }
 }
