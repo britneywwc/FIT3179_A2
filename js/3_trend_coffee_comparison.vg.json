@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 500,
+  "width": 800,
   "height": 300,
   "description": "Line chart to show the trend of coffee prices",
   "title": "Retail Prices of Brazilian and Robusta Coffee (1990-2018)",
