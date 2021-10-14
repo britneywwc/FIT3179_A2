@@ -1,6 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Trend of ICO Composite Indicator (1990-2018)",
+  "width": 500,
+  "height": 300,
+  "description": "Line chart to show the trend of coffee prices",
   "title": "Retail Prices of Brazilian and Robusta Coffee (1990-2018)",
   "data": {
     "url": "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/coffee/indicator-prices-cleaned.csv"
