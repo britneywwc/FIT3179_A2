@@ -13,7 +13,7 @@
 
 </head>
 <body style="background-color: bisque;">
-  
+    <title>Coffee Around The World</title>
   
     <div class="header">
       <h1>COFFEE AROUND THE WORLD</h1>
@@ -22,15 +22,14 @@
   <div style="background-color: bisque;">
     <div class="section" style="margin-bottom: 60px;">
       <h2>THE IMPACTS OF COFFEE</h2>
-      <div class="map">
+      <div class="map" style="padding-bottom: 30px;">
           <div id="interactive_map"></div>
       </div>
       <div class="desc">
         <b><span style="font-size: 200%; color: red">90%</span></b> of the world's adults 
         <b>consume some sort of caffeine every day</b>, making it the most widely used psychoactive drug on Earth (Pollan 2021).
-        <br> This is mainly because caffeine heavily impacts an individual's mood and drive for the day. 
         <br> <b><span style="color: rgb(73, 25, 25);">Coffee</span></b> is one of the 
-        <b><span style="color: rgb(73, 25, 25);">most legally traded agricultural commodities in the world.</span></b>
+        most legally traded agricultural commodities in the world.
         A total of USD 19 billion of coffee exports were recorded in 2017, which also provided jobs for 125 million people 
         (Voora et al., 2019).
         <br>
@@ -43,8 +42,12 @@
     <div class="section">
       <h2>THE ECONOMICS OF COFFEE</h2>  
 
-      <div class="donut-left">
-        <div class="donut-title">
+      <div class="img-container" style="padding-left: 40px; padding-right: 60px;">
+
+        <div id="donut_chart" style="padding-left: 60px;"></div>
+
+        <div class="donut-title" style="height:300px; padding-left: 20px; padding-right: 20px;">
+          <br>
           <img 
             src="https://www.comunicaffe.com/wp-content/uploads/2016/03/magazzino-sacchi-caffe-export-caffe1.jpg"
             alt="Coffee Export"
@@ -54,20 +57,12 @@
             margin-left="auto";
             margin-right="auto";
           >
-          <br>
+          <br><br>
           As seen in the donut chart, <span style="font-weight: bold; color: red;">Brazil, Vietnam </span>and 
-          <span style="font-weight: bold; color: red;">Colombia </span> are the <b>top 3 coffee exporting countries in 2018. </b>
-          Coffee export impact on country's economic growth. The total coffee production of each country is in thousand 60 kg bags.
-          <br>
-          
-          <br>
-          A study done by The Brazil Business states that coffee beans made up 10.2% of Brazil's exported commodities in 2011.
-          This shows that the coffee exporting industry is an essential agribusiness for the people of Brazil and also the rest of the coffee drinkers in the world.
+          <span style="font-weight: bold; color: red;">Colombia </span> are the <b>top 3 coffee exporting countries in 2018. </b>The total coffee production of each country is in thousand 60 kg bags.          
         </div>
       </div>
 
-      <div id="donut_chart"></div>          
-      
       <div>
 
         <div class="page-middle">
@@ -82,7 +77,7 @@
       </div>
 
       <div class="page-middle">
-        <div class="desc">
+        <div class="desc" style="width: 65%;">
           Arabica and Robusta coffee are the most popular type of coffee beans. <span style="font-weight: bold; font-size: 120%; color: red;">Brazil</span> is the 
           <span style="font-weight: bold; color: brown;">top coffee producer for Arabica</span> whereas
           <span style="font-weight: bold; font-size: 120%; color: red;">Vietnam</span> tops the list for <span style="font-weight: bold; color: brown;">Robusta production</span>. 
@@ -90,38 +85,43 @@
           <br><br>
           Both coffee beans show a similar trend in the fluctuations of coffee prices throughout the years. A significant observation
           is that <b>Brazilian Naturals (Arabica)</b> coffee is <span style="font-weight: bold; color: green;">more expensive </span>compared to Robusta. 
-          <br><br>
-          The price disparity between the two coffee is because Arabica coffee requires more delicate and specific cultivation requirements,
-          such as weather and altitude to grow. Robusta on the other hand is easier to care for due to its adaptability to adverse weather and
-          natural diseases.          
-          Arabica coffee tend to be sweeter due to the nature of the tree, whereas Robusta contains the most caffeine out of all coffee types.
-        </div>
+          </div>
       </div>
     </div>
 
 
     <div class="section" style="padding-bottom: 60px;">
       <h2>COFFEE FARMERS</h2>
-      <div class="img-container">
+      <div class="img-container" style="padding-left: 40px; padding-right: 40px;">
         <img
           src="https://img.jakpost.net/c/2019/08/23/2019_08_23_78527_1566562461._large.jpg"
           alt="Coffee Farmer2"
-          width="500px"
-          height="400px"
+          width="300px"
+          height="200px"
         >
         <img 
           src="https://highlandfarmers.com/wp-content/uploads/2019/05/Coffee-Cherries-Farm-hand.jpg"
           alt="Coffee Farmer"
-          width="450px"
-          height="400px"
-        >
-        
-
+          width="200px"
+          height="200px;"
+        >        
         <img
           src="https://media.istockphoto.com/photos/fair-trade-farming-is-best-for-coffee-bean-produce-picture-id468607708?k=20&m=468607708&s=612x612&w=0&h=s-g7B0vCDbki_8J_o9ftIzWhGKl5iCWCDIEHQxdfcaw="
           alt="Coffee Farmer3"
-          width="490px"
-          height="400px"
+          width="300px"
+          height="200px"
+        >
+        <img
+          src="https://images.unsplash.com/photo-1552346989-e069318e20a5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29mZmVlJTIwZmFybXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+          alt="Coffee Farmer3"
+          width="300px"
+          height="200px"
+        >
+        <img
+          src="https://www.idhsustainabletrade.com/uploaded/2019/03/vietnam-coffee-article.jpg"
+          alt="Coffee Farmer3"
+          width="300px"
+          height="200px"
         >
       </div>
       
@@ -130,29 +130,20 @@
           &#127793; How are Coffee Farmers supported? &#127793; 
         </div>
 
-        <div class="desc">
+        <div class="desc" style="width: 51%;">
           <span style="color: red; font-size: 200%; font-weight: bold;">80%</span> of the world's coffee is produced by <b>smallholders</b> which are people, 
           families who own small parcels of lands. An average coffee farmer <b>only earns a living income </b>which is sufficient to provide food and shelter for their families.
-          Before a consumer gets their coffee, there is a long coffee supply chain all the way from the farm. Each step along the long
-          process takes away a percentage of the coffee earnings from the farmers.           
+          <br><br>
+          For the wilkinson dot plot, <span style="font-weight: bold;">each dot represents $1.5 for every 1kg coffee bean sold</span>          
         </div>
         
         <div class="trend" style="padding-top: 50px; padding-bottom: 50px;">
           <div id="wilkinson_plot"></div>
         </div>
 
-        <div class="desc">
+        <div class="desc" style="width: 51%;">
           From the chart above, it shows that <span style="color: red; font-weight: bold;">Dominican Republic</span> coffee farmers are the <b>most paid </b>as of 2013.
           Farmers in <span style="font-weight: bold; color: brown;">Brazil, Colombia, Guatemala </span>and <span style="font-weight: bold; color: brown;">Uganda </span>are also <b>paid better</b> than other farmers.
-          <br><br>
-          There are ongoing efforts by coffee vendors to combat the wage inequality in coffee farmers.
-          Single Origin coffee is a process directly from farm to consumer where the beans are picked by hand by workers who are
-          paid a fair wage. Due to the nature of this coffee process, the prices of Single Origin coffee tend to be higher compared to normal
-          blended coffee.
-          <br><br>
-          So the next time you have the opportunity to try Single Origin coffee, know that your decision will help
-          aid local coffee farmers. Besides, you will get to know all the unique characteristics and specific taste profiles
-          of your coffee.
           
         </div>
       </div>
@@ -160,42 +151,27 @@
 
     <div class="section">
       <h2>COFFEE CONSUMPTION</h2>
-      <div class="row">
-        <div class="column">
-          <div id="isotype_dot_plot" style="margin-left: 40px; margin-bottom: 20px;"></div>                            
-        </div>
+      
+      <div class="trend" style="padding-bottom: 20px;">
+        <div id="isotype_dot_plot"></div>
+      </div>
 
-        <div class="column">
-          <div class="iso-title">
-            The isotype dot plot shows how much coffee is consumed for every country. The data is normalised as
-            to show coffee consumption per capita.
-            <br><br>
-            <img
-              src="https://www.verdict.co.uk/wp-content/uploads/2017/09/pexels-photo-302899-1.jpeg"
-              alt="Nordic Coffee"
-              width="50%"
-              height="50%"
-              text-align="center"
-            >
-            <br><br>
-            <span style="color: red; font-weight: bold; font-size: 120%;">Luxembourg</span> is the <b>top coffee consumer</b> out of all the selected countries. The coffee scale for Luxembourg
-            is approaching severe. This can be due to the small population of Luxembourg and how it is surrounded by
-            high coffee consuming Nordic countries such as Finland, Denmark, Norway and Sweden.
-            <br><br>
-            It can clearly be seen that <span style="font-weight:bold; color: brown">Nordic countries </span>as mentioned are also <b>heavy coffee consumers.</b> 
-            This is due to the higher taxes that Nordic countries have on alcohol and alcohol production, which means that coffee was
-            the more accessible option for most Scandinavians. It is also Nordic custom to offer coffee in almost everywhere,
-            so much as it is more commonly offered than water. This explains why <b>Nordic countries consume the most coffee
-            in the world.</b>
-          </div>
-        </div>
+      <div class="desc" style="width: 38%;">
+          The isotype dot plot shows how much coffee is consumed for every country. The data is normalised as
+          to show coffee consumption per capita.
+          <br><br>
+
+          <span style="color: red; font-weight: bold; font-size: 120%;">Luxembourg</span> is the <b>top coffee consumer</b> out of all the selected countries. The coffee scale for Luxembourg
+          is approaching severe.
+          It can clearly be seen that <span style="font-weight:bold; color: brown">Nordic countries </span>as mentioned are the <b>heaviest coffee consumers.</b> 
       </div>
 
       <div class="copyright">        
         &copy; Visualisation by
-        <a href="https://github.com/britneywwc">Britney Wang</a>, 2021.
+        <a href="https://github.com/britneywwc">Britney Wang</a>.
+        The datasource can be found 
         <a href="https://www.kaggle.com/yamaerenay/ico-coffee-dataset-worldwide">
-          Datasource</a>.
+          here</a>.
       </div>
     </div>
 
@@ -205,23 +181,23 @@
   <script type="text/javascript">
 
     var spec2 = "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/js/1_interactive.vg.json";
-    vegaEmbed('#interactive_map', spec2).then(function(result) {
+    vegaEmbed('#interactive_map', spec2, {"actions": true}).then(function(result) {
     }).catch(console.error);
 
     var spec3 = "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/js/2_donut_production.vg.json";
-    vegaEmbed('#donut_chart', spec3).then(function(result){
+    vegaEmbed('#donut_chart', spec3, {"actions": false}).then(function(result){
     }).catch(console.error);
 
     var spec4 = "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/js/3_trend_coffee_comparison.vg.json";
-    vegaEmbed('#line_chart', spec4).then(function(result){
+    vegaEmbed('#line_chart', spec4, {"actions": false}).then(function(result){
     }).catch(console.error);
 
     var spec5 = "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/js/4_country_consumption.vg.json";
-    vegaEmbed('#isotype_dot_plot', spec5).then(function(result){
+    vegaEmbed('#isotype_dot_plot', spec5, {"actions": false}).then(function(result){
     }).catch(console.error);
 
     var spec6 = "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/js/5_wilkinson_farmers_pay.vg.json";
-    vegaEmbed('#wilkinson_plot', spec6).then(function(result){
+    vegaEmbed('#wilkinson_plot', spec6, {"actions": false}).then(function(result){
     }).catch(console.error);
 
 
