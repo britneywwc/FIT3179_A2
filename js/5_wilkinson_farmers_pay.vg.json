@@ -1,40 +1,40 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "A Wilkinson Dot Plot",
-    "title": {
-      "text": "Prices Paid to Coffee Farmers (2013)",
-      "subtitle": "Each dot represents $1.5 for every 1kg of coffee bean being sold"
-    },
-    "width": 800,
-    "height": 300,
-    "data": {
-      "values": [
-        "Colombia", "Colombia", "Colombia", "Colombia", "Colombia", 
-        "Dominican Republic", "Dominican Republic", "Dominican Republic", "Dominican Republic", "Dominican Republic", "Dominican Republic", 
-        "El Salvador", "El Salvador", "El Salvador", 
-        "Guatemala", "Guatemala", "Guatemala", "Guatemala", "Guatemala", 
-        "Honduras", "Honduras", "Honduras", 
-        "Uganda", "Uganda", "Uganda", 
-        "Brazil", "Brazil", "Brazil", "Brazil", 
-        "Ethiopia", "Ethiopia", "Ethiopia", 
-        "India", "India", "India", 
-        "Togo", "Togo", "Togo", 
-        "Uganda", "Uganda"
-      ]
-    },
-    "transform": [{
-      "window": [{"op": "rank", "as": "id"}],
-      "groupby": ["data"]
-    }],
-    "mark": {
-        "type": "circle",
-        "opacity": 1,
-      "size": 300,
-      "color": "darkmagenta"
-    },
-    "encoding": {
-      "x": {"field": "data", "type": "ordinal", "title": null},
-      "y": {"field": "id", "type": "ordinal", "sort": "descending", "axis": null}
-    }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A Wilkinson Dot Plot",
+  "title": {
+    "text": "Prices Paid to Coffee Farmers (2013)",
+    "subtitle": "Each dot represents $1.5 for every 1kg of coffee bean being sold"
+  },
+  "width": 800,
+  "height": 300,
+  "data": {
+    "values": [
+      "Colombia", "Colombia", "Colombia", "Colombia", "Colombia", 
+      "Dominican Republic", "Dominican Republic", "Dominican Republic", "Dominican Republic", "Dominican Republic", "Dominican Republic", 
+      "El Salvador", "El Salvador", "El Salvador", 
+      "Guatemala", "Guatemala", "Guatemala", "Guatemala", "Guatemala", 
+      "Honduras", "Honduras", "Honduras", 
+      "Uganda", "Uganda", "Uganda", 
+      "Brazil", "Brazil", "Brazil", "Brazil", 
+      "Ethiopia", "Ethiopia", "Ethiopia", 
+      "India", "India", "India", 
+      "Togo", "Togo", "Togo", 
+      "Uganda", "Uganda"
+    ]
+  },
+  "transform": [{
+    "window": [{"op": "rank", "as": "id"}],
+    "groupby": ["data"]
   }
-  
+  ],
+  "mark": {
+      "type": "circle",
+      "opacity": 1,
+    "size": 2500,
+    "color": "darkmagenta"
+  },
+  "encoding": {
+    "x": {"field": "data", "type": "ordinal", "title": null},
+    "y": {"field": "id", "type": "ordinal", "sort": "descending", "axis": null}
+  }
+}
