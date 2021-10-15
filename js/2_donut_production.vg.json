@@ -11,7 +11,7 @@
   "params": [
     {
       "name": "Production_Filter",
-      "value": 0,
+      "value": 7500,
       "bind": {
         "input": "range",
         "min": 0,
