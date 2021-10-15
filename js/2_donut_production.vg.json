@@ -1,35 +1,34 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "description": "A simple donut chart with embedded data.",
-    "width": 300,
-    "height": 300,
-    "title": "Coffee Production in Countries (2018)",
-    "data": {
-      "url": "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/coffee/total-production.csv"
-    },
-    "transform": [{"filter": "datum.year_2018 > Production_Filter"}],
-    "params": [
-      {
-        "name": "Production_Filter",
-        "value": 0,
-        "bind": {
-          "input": "range",
-          "min": 0,
-          "max": 20000,
-          "step": 100,
-          "name": "Filter by total production: "
-        }
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A simple donut chart with embedded data.",
+  "width": 500,
+  "height": 400,
+  "title": "Coffee Production in Countries (2018)",
+  "data": {
+    "url": "https://raw.githubusercontent.com/britneywwc/FIT3179_A2/main/coffee/total-production.csv"
+  },
+  "transform": [{"filter": "datum.year_2018 > Production_Filter"}],
+  "params": [
+    {
+      "name": "Production_Filter",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 20000,
+        "step": 100,
+        "name": "Filter by total production: "
       }
-    ],
-    "mark": {"type": "arc", "innerRadius": 50},
-    "encoding": {
-      "theta": {"field": "year_2018", "type": "quantitative", "title": "Total Production"},
-      "color": {"field": "total_production", "type": "nominal", "title": "Country"},
-      "tooltip": [
-        {"field": "total_production", "title": "Country"},
-        {"field": "year_2018", "title": "Total Production (2018)" }
-      ]
-    },
-    "view": {"stroke": null}
-  }
-  
+    }
+  ],
+  "mark": {"type": "arc", "innerRadius": 50},
+  "encoding": {
+    "theta": {"field": "year_2018", "type": "quantitative", "title": "Total Production"},
+    "color": {"field": "total_production", "type": "nominal", "title": "Country"},
+    "tooltip": [
+      {"field": "total_production", "title": "Country"},
+      {"field": "year_2018", "title": "Total Production (2018)" }
+    ]
+  },
+  "view": {"stroke": null}
+}
